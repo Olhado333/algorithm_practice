@@ -3,6 +3,7 @@
 Notes:
 - Algorithm mutates input.
 
+```
 ALGORITHM BubbleSort(A[0..n-1])
     //Sorts a given array by bubble sort
     //Input: An array A[0..n-1] pf orderable elements
@@ -11,3 +12,4 @@ ALGORITHM BubbleSort(A[0..n-1])
         for j <- 0 to n - 2 - i do
             if A[j + 1] < A[j]
                 swap A[j] and A[j + 1]
+```
